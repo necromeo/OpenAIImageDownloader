@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "openai-image-creator"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Andre Scheel <andrescheel@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "openai_image_creator"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^9.3.0"
+openai = "^0.25.0"
+python-dotenv = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
